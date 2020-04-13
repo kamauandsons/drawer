@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigate" app:startDestination="@id/titleFragment3">
+    <fragment android:id="@+id/titleFragment3" android:name="com.example.chege.TitleFragment"
+              android:label="TitleFragment">
+        <action android:id="@+id/action_titleFragment3_to_myFragment2" app:destination="@id/myFragment2"/>
+    </fragment>
+    <fragment android:id="@+id/myFragment2" android:name="com.example.chege.MyFragment" android:label="MyFragment">
+        <argument android:name="nm" app:argType="integer"/>
+    </fragment>
+    <fragment android:id="@+id/aboutFragment" android:name="com.example.android.navigation.AboutFragment"
+              android:label="fragment_about" tools:layout="@layout/fragment_about"/>
+    <fragment android:id="@+id/rulesFragment" android:name="com.example.android.navigation.RulesFragment"
+              android:label="fragment_rules" tools:layout="@layout/fragment_rules"/>
+</navigation>

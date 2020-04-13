@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "308741962629",
+    "firebase_url": "https://andsons-843f4.firebaseio.com",
+    "project_id": "andsons-843f4",
+    "storage_bucket": "andsons-843f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308741962629:android:72baa691a4ac5fba4c22ec",
+        "android_client_info": {
+          "package_name": "com.example.chege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308741962629-ma8g945l18tp3da4hipb4arj5o03ctgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chege",
+            "certificate_hash": "cf17ac789d5f9a2f9eded31ec1f679d20889fade"
+          }
+        },
+        {
+          "client_id": "308741962629-ith34ie3ma96c9l6bfpab5odt81npj3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsx6v9yT1LwS-7EpRnUp5B-7kFfitplV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308741962629-ith34ie3ma96c9l6bfpab5odt81npj3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
